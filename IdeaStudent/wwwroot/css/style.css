@@ -1,0 +1,504 @@
+@charset "UTF-8";
+
+body{
+    font-family: Calibri Arial sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+
+}
+ul,ol{
+    list-style: none;
+}
+
+img{
+    border: none;
+    vertical-align: top;
+}
+
+ul li {
+    display: inline-block;
+}
+
+div.container {
+    width: 1200px;
+    background-color: #f6f4f4;
+    padding-top: 5px;
+    margin: auto;
+}
+
+#header {
+    width: 1200px;
+    background-color: #686767;
+    color: white;
+    border: 1px solid #868383;
+    border-radius: 5px;
+    position: fixed ;
+    z-index: 1000;
+    top: 0;
+}
+
+
+div#nav div.navbar button{
+    margin-right: 3px;
+    cursor: pointer;
+}
+div#nav div.navbar button, input {
+    height: 25px;
+}
+
+div#nav div.first{
+    margin-left: 10px;
+}
+
+div#nav div.navbar{
+
+    align-items: center;
+    display: flex;
+}
+
+div#nav div.navbar input{
+    width: 200px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding: 0 5px;
+}
+
+div#nav div.navbar input:focus{
+    outline: 0;
+}
+
+div#nav div.avt {
+    margin-left: 135px;
+}
+
+div#nav div.brand {
+    margin-left: 255px;
+}
+
+div#nav div.navbar a{
+    align-items: center;
+    height: 28px;
+    display: flex;
+    padding: 5px;
+}
+
+div#header div#nav {
+    display: flex;
+}
+
+div#nav div.navbar a img {
+    margin-right: 3px;
+}
+
+
+div#nav div.navbar a img{
+    height: 28px;
+    width: 28px;
+    border-radius: 45%;
+}
+
+div#nav div.navbar a {
+    margin: 3px;
+    font-size: 120%;
+    color: white;
+}
+
+div#nav div.brand a {
+    font-size: 140%;
+    border-radius: 10px;
+}
+
+div#nav div.brand a {
+    color: gray;
+    background-color: aliceblue;
+}
+
+div#nav div.brand a span {
+    color: blueviolet;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+
+div#nav div.menu a:hover{
+    /*border: 0 solid gray;*/
+    background-color: #868383;
+    border-radius: 18px;
+}
+
+/*
+    ***********************************************
+                            Section
+    ***********************************************
+*/
+
+div#sec_asi {
+    display: flex;
+    position: relative;
+}
+
+/*
+    ***********************************************
+                            post
+    ***********************************************
+*/
+
+div#section {
+    width: 670px;
+    margin: 10px auto;
+}
+
+div#post {
+    align-items: center;
+    display: flex;
+    border: 1px solid #e2e1e1;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: #e2e1e1;
+}
+
+div#post div img {
+    height: 40px;
+    width: 40px;
+    border-radius: 45%;
+    margin: 5px;
+}
+div#post div button {
+    background-color: #6ea4ef;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+}
+
+div#post div input {
+    width: 550px;
+    border-radius: 20px;
+    margin-right: 3px;
+    padding-left: 13px;
+}
+
+div#post div input:focus{
+    outline: 0;
+}
+
+    /*
+        ***********************************************
+                                content
+        ***********************************************
+    */
+/* test*/
+div#section div.add {
+    display: flex;
+    align-items: center;
+}
+
+div#section div.add div.addf {
+    margin: 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 7px;
+    max-width: 156px;
+}
+
+div#section div.add div.addf a img {
+    height: 170px;
+    width: 148px;
+    border-radius: 7px;
+    margin: 3px;
+}
+
+div#section div.add div.addf div.newf {
+    padding-left: 10px;
+    margin-top: 2px;
+    max-width: 154px;
+    overflow: hidden;
+}
+
+div#section div.add div.addf div.newf a , div#section div.add div.addf div.newf a strong  {
+    display: flex;
+    width: 142px;
+}
+
+div#section div.add div.addf div.newf1 {
+    border: 1px solid #868383;
+    border-radius: 3px;
+}
+
+div#section div.add div.addf div.newf1 a{
+    color: #c74f4f;
+}
+
+
+/* end test*/
+
+div.content {
+    margin-top: 10px;
+    background-color: #dedede;
+    border-radius: 10px;
+}
+
+div#section div.status  {
+    margin: 10px;
+}
+
+/*div#section div.status  div.name img {*/
+
+/*    height: 40px;*/
+/*    width: 40px;*/
+/*    border-radius: 45%;*/
+/*    margin: 5px;*/
+/*}*/
+
+div.name a div img {
+    height: 40px;
+    width: 40px;
+    border-radius: 45%;
+    margin: 5px;
+}
+
+/*div#section div.status  div.name a.fixedcol {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    margin-top: 4px;*/
+/*}*/
+a.fixedcol {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+div#section div.status  div.name strong{
+    font-size: 120%;
+}
+
+div#section div.status  div.name {
+    display: flex;
+}
+
+
+div.noidung div img {
+    height: 400px;
+    width: 630px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.noidung div, div.img {
+    margin-left: 10px;
+}
+
+div#section div.status  div.emotion {
+    display: flex;
+}
+
+div#section div.status  div.emotion div {
+    margin:10px 1px;
+    padding: 5px 83px;
+    background-color: #e8e6e6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div#section div.status  div.emotion div:hover{
+    background-color: #d0cfcf;
+}
+
+div#section div.status  div.emotion div.first {
+    margin-left: 10px;
+}
+
+/*
+    ***********************************************
+                    aside_Status
+    ***********************************************
+*/
+
+div#aside {
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid #d4cbcb;*/
+    /*background-color: #d4cbcb;*/
+    margin-top: 70px;
+    height: 2010px;
+    width: 220px;
+    position: fixed;
+}
+
+div#messenger{
+    overflow: auto;
+    height: 520px;
+}
+
+div#messenger::-webkit-scrollbar {
+    width: 3px;
+    background-color: #dedede;
+}
+
+div#messenger::-webkit-scrollbar-thumb {
+    background-color: #686767;
+}
+
+/*div#messenger::-webkit-scrollbar-thumb {*/
+/*    -webkit-box-shadow: 2px 2px #c74f4f;*/
+/*    background-color: #6ea4ef;*/
+/*}*/
+
+div#messenger div.mess div.mess_name a img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+div#messenger div.mess div.mess_name {
+    display: flex;
+    align-items: center;
+}
+
+div.mess {
+    margin: 2px;
+    padding: 5px;
+    background-color: #efeeee;
+    border-radius: 4px;
+    display: flex;
+    height: 25px;
+}
+
+div.main {
+    display: flex;
+    align-items: center;
+    margin: 5px 0 15px;
+    justify-content: space-around;
+}
+
+div.main h4 {
+    font-size: 120%;
+}
+
+div.main input {
+    width: 60%;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+div.main input:focus{
+    outline: 0;
+}
+
+/*
+    ***********************************************
+                    aside1_messenger
+    ***********************************************
+*/
+
+div#aside1 {
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid #d4cbcb;*/
+    /*background-color: #d4cbcb;*/
+    margin-top: 41px;
+    height: 2010px;
+    width: 220px;
+    position: absolute;
+    right: 0;
+}
+
+div#messenger1{
+    overflow: auto;
+    height: 700px;
+}
+
+div#messenger1::-webkit-scrollbar {
+    width: 3px;
+    background-color: #dedede;
+}
+
+div#messenger1::-webkit-scrollbar-thumb {
+    background-color: #686767;
+}
+
+/*div#messenger::-webkit-scrollbar-thumb {*/
+/*    -webkit-box-shadow: 2px 2px #c74f4f;*/
+/*    background-color: #6ea4ef;*/
+/*}*/
+
+div#messenger1 div.mess1 div.mess_name a img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+div#messenger1 div.mess1 div.mess_name {
+    display: flex;
+    align-items: center;
+}
+
+div.mess1 {
+    margin: 2px;
+    padding: 5px;
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    display: flex;
+    height: 30px;
+}
+
+
+
+
+
+/*
+    ***********************************************
+                        footer
+    ***********************************************
+*/
+
+div#footer {
+    display: flex;
+    /*height: 100px;*/
+    background-color: #686767;
+    border-radius: 3px;
+    flex-direction: column;
+}
+
+div#footer div.fot {
+    display: flex;
+    /*align-items: center;*/
+    flex-direction: column;
+    margin-left: 10px;
+    align-content: space-around;
+}
+
+div#footer div.fot a {
+    color: #dedcdc;
+    padding: 2px;
+}
+
+div#footer div.fot div {
+    margin-top: 5px;
+}
+
+
+div#footer div.fot div a:hover{
+    /*border: 0 solid gray;*/
+    background-color: #c74f4f;
+    border-radius: 18px;
+}
+/*div#footer div.finfo {*/
+/*    display: flex;*/
+/*    !*align-items: center;*!*/
+/*    flex-direction: column;*/
+/*}*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+
+div#header {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 10px auto;
+    height: 40px;
+    background-color: #c74f4f;
+    border-radius: 10px;
+}
+
+div#header div.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    display: block;
+    position: relative;
+}
+
+div#header div.menu div a {
+    font-size: 120%;
+}
+
+
+div#header div.menu ul {
+    position: absolute;
+    list-style: none;
+    display: none;
+    padding-top: 10px;
+}
+
+div#header div.menu div:hover ul{
+    display: block;
+}
